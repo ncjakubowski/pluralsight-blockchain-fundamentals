@@ -9,7 +9,7 @@ contract ScoreStore {
     }
   }
 
-  function GetScores(string name) returns (int) {
+  function GetScore(string name) returns (int) {
     return PersonScores[name];
   }
 
